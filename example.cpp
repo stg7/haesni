@@ -1,11 +1,11 @@
 /**
     Copyright 2015 Steve Göring
 
-    haesni example programm
+    haesni example program
 
     \author stg7
 
-    \brief small demonstation of haesni usage
+    \brief small demonstration of haesni usage
 
     \date 15.11.2015
 **/

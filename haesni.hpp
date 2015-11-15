@@ -5,7 +5,7 @@
 
     \author stg7
 
-    \brief haesni is a aes based hash function for performance increasing of hash-table applications
+    \brief haesni is an aes based hash function for performance increasing of hash-table applications
 
     This implementation should be as fast as boost::hash_range for strings
 
