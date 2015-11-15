@@ -1,4 +1,6 @@
 /**
+    Copyright 2015 Steve Göring
+
     haesni example programm
 
     \author stg7
@@ -36,7 +38,7 @@ int main(int argc, const char* argv[]) {
 
     std::vector<std::string> hash_strings { "hello", "hello world", "world", "haesni", "haesni is fast" };
 
-    for(auto& str : hash_strings) {
+    for (auto& str : hash_strings) {
         std::cout << "haesni(\"" << str << "\") = "
             << haesni::hash(&str[0], str.length()) << std::endl;
     }
