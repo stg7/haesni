@@ -28,3 +28,4 @@ unsigned long hash = haesni::hash(&str[0], str.length());  //< start hashing
 
 technique
 ---------
+See documentation in `haesni.hpp`.
