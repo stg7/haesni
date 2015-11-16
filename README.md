@@ -14,7 +14,7 @@ requirements
 * scons
 * g++
 
-Usage
+usage
 -----
 Please look at `example.cpp`, you can compile the example with a simple `scons` call.
 
