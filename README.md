@@ -1,7 +1,7 @@
 haesni
 ======
 `haesni` is a small hash function using aes-ni for fast string hashing.
-I programmed this prototype for my master thesis and measure speed performance comparing to `boost::hash_range`.
+I programmed this prototype for my master thesis and measured speed performance comparing to `boost::hash_range`.
 As a result, `haesni` is in most cases similar fast as boost, however `haesni` has less collisions.
 
 Important note: there is no check if aes-ni instruction is available.
