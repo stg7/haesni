@@ -77,7 +77,7 @@ namespace haesni {
         __m128i H = _mm_setzero_si128();  //< initial value  for hash, set to 00000
         __m128i* V = reinterpret_cast<__m128i *>(s);  //< transform input string to m128i array
 
-        long handled_len = 0;
+        unsigned long handled_len = 0;
 
         // handle 2 * 16 byte blocks of string s
         for (unsigned long i = 0; i < len >> (blockbits + 1); i++) {
