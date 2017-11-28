@@ -29,3 +29,18 @@ unsigned long hash = haesni::hash(&str[0], str.length());  //< start hashing
 technique
 ---------
 See documentation in `haesni.hpp`.
+
+
+reference
+---------
+If you are using haesni, please cite
+```
+@MASTERSTHESIS{ma:2013,
+AUTHOR = {Steve G{\"o}ring},
+MONTH = dec,
+SCHOOL = {Technische Universit{\"a}t Ilmenau, Fakult{\"a}t Informatik und Automatisierung, Datenbanken und Informationssysteme},
+TITLE = {{Effiziente In-Memory Verarbeitung von SPARQL-Anfragen auf gro{\ss}en Datenmengen}},
+TYPE = {Masterarbeit},
+YEAR = {2013}
+}
+```
