@@ -10,7 +10,7 @@ env.Append(CPPPATH = ["."])
 
 conf = Configure(env)
 
-env.Append(CXXFLAGS=['-march=native', '-mavx', '-maes', '-O3', '-std=c++11'])
+env.Append(CXXFLAGS=['-march=native', '-mavx', '-maes', '-O3', '-std=c++14'])
 
 env.Decider('MD5')
 env.Program('example', ['example.cpp'])
